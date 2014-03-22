@@ -1,0 +1,22 @@
+[user]
+	name = Jay R Bolton
+	email = jayrbolton@gmail.com
+[alias]
+	pp = push origin master
+	p = push
+	aa = add --all
+	a = add
+	co = checkout
+	s = status
+	br = branch
+	d = diff --color
+	l = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	c = commit
+	cm = commit -m
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[credential]
+	helper = cache --timeout=604800
+[push]
+	default = simple

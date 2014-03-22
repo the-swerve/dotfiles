@@ -1,0 +1,7 @@
+caption    always         "%{+b bk}$LOGNAME@%{rk}%H%{gk} | %D, %M %d %{yk}%C%a | %72=Load: %l %{wk}"
+hardstatus alwayslastline "%?%{kw}%-Lw%?%{+b wk}%n*%f %t%?(%u)%?%?%{kw}%+Lw%?"
+
+bind f eval "caption splitonly" "hardstatus ignore"
+bind F eval "caption always"    "hardstatus alwayslastline"
+
+escape ^@a 

@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/big/j/code/commitchange_copy/app'
+let g:netrw_dirhist_2='/home/big/j/code/commitchange_copy/app/mailers'
+let g:netrw_dirhist_3='/home/big/j/tmp'

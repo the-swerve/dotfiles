@@ -1,0 +1,62 @@
+URxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=16:antialias=true:hinting=true
+URxvt.boldFont: xft:DejaVu Sans Mono:bold:pixelsize=16:antialias=true:hinting=true
+URxvt.letterSpace: -1
+URxvt.saveLines: 12000
+URxvt.foreground: White
+URxvt.background: Black
+URxvt.scrollBar: false
+
+!-------------------------------------------------------------------------------
+! Color scheme
+! Lifted from Solarized (http://ethanschoonover.com/solarized)
+!-------------------------------------------------------------------------------
+
+! Perl extensions (note: you could add 'tabbed' to perl-ext-common for tabs)
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+
+! Cursor
+URxvt.cursorBlink:          false
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+!!Source http://github.com/altercation/solarized
+
+*background: #002b36
+*foreground: #657b83
+*fadeColor: #002b36
+*cursorColor: #93a1a1
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+!! black dark/light
+*color0: #073642
+*color8: #002b36
+
+!! red dark/light
+*color1: #dc322f
+*color9: #cb4b16
+
+!! green dark/light
+*color2: #859900
+*color10: #586e75
+
+!! yellow dark/light
+*color3: #b58900
+*color11: #657b83
+
+!! blue dark/light
+*color4: #268bd2
+*color12: #839496
+
+!! magenta dark/light
+*color5: #d33682
+*color13: #6c71c4
+
+!! cyan dark/light
+*color6: #2aa198
+*color14: #93a1a1
